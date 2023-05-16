@@ -85,7 +85,7 @@ This process can be seen there:
 <p align=center><img src="src/Render.png"><p>
 
 Deployed API can be seen there:
-[Render API Movie Recommendation System ](https://github.com/Marcostamal/PI_MASA_DE/blob/main/Data_Cleaning_Plataformas.ipynb)
+[Render API Movie Recommendation System ](https://mlops-data10.onrender.com/docs)
 
 ## Video Tutorial
 This video can be seen there:
