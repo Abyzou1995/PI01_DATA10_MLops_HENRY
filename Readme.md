@@ -88,7 +88,7 @@ This process can be seen there:
 + Render is an unified cloud to build and run all your apps and websites.
   
 Deployed API code can be seen there:
-[Render API Movie Recommendation System ](https://github.com/Abyzou1995/PI01_DATA10_MLops_HENRY/blob/main/main.py)
+[Code API Movie Recommendation System ](https://github.com/Abyzou1995/PI01_DATA10_MLops_HENRY/blob/main/main.py)
   
 <p align=center><img src="src/Render.png"><p>
 
