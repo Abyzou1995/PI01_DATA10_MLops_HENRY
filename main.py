@@ -18,6 +18,9 @@ Api5 = pd.read_csv("Dataset_API/API5.csv")
 Api6 = pd.read_csv("Dataset_API/API6.csv")
 Api7=pd.read_csv("Dataset_API/API7.csv")
 
+##Functions development in https://github.com/Abyzou1995/PI01_DATA10_MLops_HENRY/blob/main/FunctionAPI_MLops.ipynb
+
+## ML model development in https://github.com/Abyzou1995/PI01_DATA10_MLops_HENRY/blob/main/ModelML_MLops.ipynb
 
 ##ML model
 ml = Api7.head(5000)
