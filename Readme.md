@@ -17,7 +17,7 @@ You go to their data and you realize that their maturity is low. Nested data, wi
 Extract, Transform and load process was carried out following these steps.
 
 Original Dataset:
-[Original Dataset ](https://github.com/Marcostamal/PI_MASA_DE/blob/main/Data_Cleaning_Plataformas.ipynb)
+[Original Dataset ](https://github.com/Abyzou1995/PI01_DATA10_MLops_HENRY/tree/main/Dataset_original)
 
 ### Required Transformations
 + Some fields, like **`belongs_to_collection`**, **`production_companies`** and others (see data dictionary) are nested, that is, they either have a dictionary or a list as values ​​in each row, you will need to un-nest them to join them to the dataset again do some of the API queries! Or find a way to access that data without un-nesting.
@@ -33,9 +33,9 @@ Original Dataset:
 + Remove columns that will not be used, **`video`**,**`imdb_id`**,**`adult`**,**`original_title`**,**`vote_count`**,**`poster_path`** and **`homepage`**.
 
 This process can be seen there:
-[ETL MLops Movie Recommendation System ](https://github.com/Marcostamal/PI_MASA_DE/blob/main/Data_Cleaning_Plataformas.ipynb)
+[ETL MLops Movie Recommendation System ](https://github.com/Abyzou1995/PI01_DATA10_MLops_HENRY/blob/main/ETL_MLops.ipynb)
 Dataset after ETL:
-[ETL Dataset ](https://github.com/Marcostamal/PI_MASA_DE/blob/main/Data_Cleaning_Plataformas.ipynb)
+[ETL Dataset ](https://github.com/Abyzou1995/PI01_DATA10_MLops_HENRY/tree/main/Dataset_API)
 
 ## EDA 
 Exploratory Data Analysis was carried out following these steps.
@@ -48,14 +48,14 @@ Exploratory Data Analysis was carried out following these steps.
 <p align=center><img src="src/EDA3.png"><p>
 
 This process can be seen there:
-[EDA MLops Movie Recommendation System ](https://github.com/Marcostamal/PI_MASA_DE/blob/main/Data_Cleaning_Plataformas.ipynb)
+[EDA MLops Movie Recommendation System ](https://github.com/Abyzou1995/PI01_DATA10_MLops_HENRY/blob/main/EDA_MLops.ipynb)
 Dataset after EDA:
-[EDA Dataset ](https://github.com/Marcostamal/PI_MASA_DE/blob/main/Data_Cleaning_Plataformas.ipynb)
+[EDA Dataset ](https://github.com/Abyzou1995/PI01_DATA10_MLops_HENRY/tree/main/Dataset_ML)
 
 ## Functions for the API Development
 Six functions for the endpoints that will be consumed in the API.
 Dataset for functions:
-[Function Datasets](https://github.com/Marcostamal/PI_MASA_DE/blob/main/Data_Cleaning_Plataformas.ipynb)
+[Function Datasets](https://github.com/Abyzou1995/PI01_DATA10_MLops_HENRY/tree/main/Dataset_API)
 1. The month is given and the function returns the number of movies that were released that month.
 2. The day is given and the function returns the number of movies that were released that day.
 3. The franchise is given, returning the number of movies, total and average profit.
@@ -64,7 +64,7 @@ Dataset for functions:
 6. Give the movie, returning the investment, the profit, the return and the year in which it was released.
 
 This process can be seen there:
-[Functions API MLops Movie Recommendation System ](https://github.com/Marcostamal/PI_MASA_DE/blob/main/Data_Cleaning_Plataformas.ipynb)
+[Functions API MLops Movie Recommendation System ](https://github.com/Abyzou1995/PI01_DATA10_MLops_HENRY/blob/main/FunctionAPI_MLops.ipynb)
 
 ## Function ML Movie Recommendation System for the API Development
 
@@ -77,7 +77,7 @@ Based on research articules, features and ML text-analysis model were chosen.
 <p align=center><img src="src/EDA2.png"><p>
 
 This process can be seen there:
-[Model MLops Movie Recommendation System ](https://github.com/Marcostamal/PI_MASA_DE/blob/main/Data_Cleaning_Plataformas.ipynb)
+[Model MLops Movie Recommendation System ](https://github.com/Abyzou1995/PI01_DATA10_MLops_HENRY/blob/main/ModelML_MLops.ipynb)
 
 ## Deployment
 + Making the company data available using the FastAPI framework.
