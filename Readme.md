@@ -93,5 +93,5 @@ Deployed API can be seen there:
 
 ## Video Tutorial
 This video can be seen there:
-[MLops Movie Recommendation System ](https://github.com/Marcostamal/PI_MASA_DE/blob/main/Data_Cleaning_Plataformas.ipynb)
+[MLops Movie Recommendation System ](https://www.youtube.com/watch?v=I5aDsbqEHwg)
 
